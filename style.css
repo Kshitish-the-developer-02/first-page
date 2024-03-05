@@ -44,13 +44,14 @@
   max-width: 82%;
 }
 .left-content p {
-  font-family: "Inter", sans-serif;
-  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  font-size: 19px;
   color: white;
-  font-weight: 500;
-  line-height: 1.21;
+  font-weight: 400;
+  line-height: 1.39;
   margin-top: 20px;
   max-width: 98%;
+  letter-spacing: 0.38px;
 }
 .left-content button {
   font-family: "Plus Jakarta Sans", sans-serif;
@@ -59,7 +60,7 @@
   border: none;
   cursor: pointer;
   font-family: "Poppins", sans-serif;
-  font-size: 16px;
+  font-size: 19px;
   border-radius: 5px;
   padding: 1rem 1rem;
   margin-top: 30px;
@@ -95,7 +96,7 @@
 .top-content p {
   font-family: "Inter", sans-serif;
   color: white;
-  font-size: 20px;
+  font-size: 23px;
   margin-top: 10px;
   line-height: 1.2;
   letter-spacing: 0.2px;
@@ -103,7 +104,7 @@
 .bottom-content {
   width: 1300px;
   margin: 0 auto;
-  padding: 80px 0;
+  padding: 45px 0;
   display: flex;
   flex-direction: row;
 }
@@ -122,10 +123,10 @@
 }
 .text-content p {
   font-family: "Poppins", sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   margin-bottom: 25px;
   margin-top: 15px;
-  line-height: 1.24;
+  line-height: 1.34;
   border-bottom: 1px dotted rgb(185, 183, 183);
   padding-bottom: 10px;
 }
@@ -164,8 +165,8 @@
   border: 1px solid black;
   background-color: #fff;
   border-radius: 10px;
-  padding: 25px;
-  font-size: 18px;
+  padding: 16px;
+  font-size: 20px;
 }
 .box h2 {
   font-family: "Poppins", sans-serif;
@@ -187,7 +188,7 @@
 .service-block {
   width: 1300px;
   margin: 0 auto;
-  padding: 80px 15px;
+  padding: 30px 15px;
 }
 .heading-block {
   padding: 20px 0;
@@ -195,12 +196,12 @@
 }
 .heading-block h1 {
   font-family: "Poppins", sans-serif;
-  font-size: 41px;
-  line-height: 1.4;
+  font-size: 47px;
+  line-height: 1.2;
 }
 .heading-block p {
   font-family: "Inter", sans-serif;
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 500;
   max-width: 39%;
 }
@@ -219,7 +220,7 @@
 .text-part p {
   font-family: "Poppins", sans-serif;
   margin-top: 10px;
-  font-size: 18px;
+  font-size: 19px;
   line-height: 1.4;
 }
 
@@ -249,7 +250,7 @@
   font-family: "Poppins", sans-serif;
   font-family: 700;
   padding: 20px;
-  font-size: 41px;
+  font-size: 46px;
 }
 .content-part span {
   color: #007ee3;
@@ -282,7 +283,7 @@
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   text-align: left;
-  font-size: 20px;
+  font-size: 22px;
 }
 
 @media (min-width: 941px) and (max-width: 1025px) {
@@ -354,7 +355,7 @@
     gap: 30px;
   }
   .box p {
-    font-size: 16px;
+    font-size: 19px;
   }
 
   /* service-block */
@@ -380,6 +381,9 @@
   .content-part {
     width: 100%;
   }
+  .content-part h2{
+    font-size: 35px;
+  }
   .client-section {
     width: 100%;
   }
@@ -396,15 +400,19 @@
     padding: 10px 5px 10px 33px;
   }
   .left-content h1 {
-    font-size: 41px;
+    font-size: 48px;
     max-width: 84%;
   }
   .left-content h3 {
-    max-width: 98%;
+    max-width: 84%;
+    font-size: 27px;
   }
   .left-content p {
-    max-width: 98%;
-    font-size: 18px;
+    max-width: 83%;
+    font-size: 19px;
+  }
+  .left-content button {
+    margin-bottom: 26px;
   }
   .right-content {
     text-align: right;
@@ -423,7 +431,7 @@
     font-size: 35px;
   }
   .top-content p {
-    font-size: 16px;
+    font-size: 19px;
   }
   .bottom-content {
     width: 100%;
@@ -438,7 +446,7 @@
     font-size: 35px;
   }
   .text-content p {
-    font-size: 16px;
+    font-size: 18px;
   }
 
   /* service-section */
@@ -450,6 +458,15 @@
   .service-block {
     width: 100%;
   }
+  .box {
+    padding: 10px;
+  }
+  .box p {
+    font-size: 21px;
+    line-height: 1.4;
+  }
+  .box h2 {
+    font-size: 28px;  }
 
   /* client-section */
   .content-part {
@@ -469,7 +486,7 @@
   }
   .left-content {
     max-width: 100%;
-    padding: 80px 30px 0 30px;
+    padding: 40px 30px 0 30px;
   }
   .left-content h1 {
     font-size: 40px;
@@ -492,11 +509,11 @@
     padding: 40px 10px;
   }
   .top-content h2 {
-    font-size: 29px;
+    font-size: 32px;
     line-height: 1.3;
   }
   .top-content p {
-    font-size: 16px;
+    font-size: 18px;
   }
   .bottom-content {
     width: 100%;
@@ -504,6 +521,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding: 20px;
   }
   .image-section {
     padding: 15px;
@@ -512,17 +530,18 @@
     text-align: left;
   }
   .image-section img {
-    width: 300px;
-    height: 445px;
+    width: 363px;
+    height: 474px;
   }
   .text-content {
-    padding: 60px 40px;
+    padding: 16px 16px;
   }
   .text-content h2 {
-    font-size: 29px;
+    font-size: 32px;
+    text-align: left;
   }
   .text-content p {
-    font-size: 16px;
+    font-size: 18px;
     text-align: left;
   }
 
@@ -530,32 +549,36 @@
   .service-section {
     width: 100%;
   }
+  .heading-section h1 {
+    font-size: 35px;
+  }
   .service-box {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
   .box h2 {
-    font-size: 20px;
+    font-size: 22px;
   }
   .box p {
-    font-size: 17px;
+    font-size: 18px;
   }
-
   /* .service-block */
   .service-block {
     width: 100%;
+    padding: 0 15px;
   }
   .heading-block {
     flex-direction: column;
   }
   .heading-block h1 {
-    /* font-size: 35px; */
+    font-size: 35px;
     line-height: 1.3;
+    max-width: 75%;
   }
   .heading-block p {
     max-width: 80%;
     margin-top: 20px;
-    font-size: 18px;
+    font-size: 20px;
   }
   .content-block-root {
     margin: 0;
@@ -567,7 +590,7 @@
   }
   .content-block p {
     font-size: 16px;
-    max-width: 75%;
+    max-width: 80%;
   }
 
   /* client-section */
@@ -576,6 +599,7 @@
   }
   .content-part h2 {
     line-height: 1.3;
+    font-size: 35px;
   }
   .div-section h1 {
     font-size: 35px;
@@ -863,22 +887,25 @@
   }
   .left-content {
     max-width: 100%;
-    padding: 80px 30px 0 30px;
+    padding: 50px 12px 0 18px;
   }
   .left-content h1 {
-    font-size: 26px;
+    font-size: 30px;
     max-width: 100%;
   }
   .left-content h3 {
-    font-size: 14px;
+    font-size: 18px;
+    font-weight: 600;
     max-width: 93%;
   }
   .left-content p {
-    font-size: 13px;
-    max-width: 100%;
+    font-size: 16.5px;
+    line-height: 1.46;
+    /* word-spacing: -2px; */
+    letter-spacing: 0.2px;
   }
   .left-content button {
-    font-size: 12px;
+    font-size: 15px;
   }
   .right-content {
     max-width: 100%;
@@ -893,11 +920,12 @@
     padding: 40px 10px;
   }
   .top-content h2 {
-    font-size: 25px;
+    font-size: 28px;
     line-height: 1.3;
   }
   .top-content p {
-    font-size: 14px;
+    font-size: 17px;
+    max-width: 100%;
   }
   .bottom-content {
     width: 100%;
@@ -905,6 +933,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding: 24px 5px;
   }
   .image-section {
     padding: 15px;
@@ -913,18 +942,20 @@
     text-align: left;
   }
   .image-section img {
-    width: 300px;
-    height: 445px;
+    width: 374px;
+    height: 488px;
   }
   .text-content {
-    padding: 60px 40px;
+    padding: 10px 11px;
   }
   .text-content h2 {
-    font-size: 25px;
+    font-size: 28px;
+    text-align: left;
   }
   .text-content p {
-    font-size: 14px;
+    font-size: 16px;
     text-align: left;
+    line-height: 1.5;
   }
 
   /* service-section */
@@ -940,29 +971,37 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20px 30px;
+    padding: 20px 8px;
+  }
+  .box {
+    border: 1px solid black;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 19px;
+    font-size: 18px;
   }
   .box h2 {
-    font-size: 19px;
+    font-size: 24px;
   }
   .box p {
-    font-size: 15px;
+    font-size: 18px;
   }
   .service-block {
     width: 100%;
+    padding: 25px 15px;
   }
   .heading-block {
     flex-direction: column;
   }
   .heading-block h1 {
     /* font-size: 35px; */
-    font-size: 25px;
+    font-size: 29px;
     line-height: 1.3;
   }
   .heading-block p {
     max-width: 100%;
-    margin-top: 20px;
-    font-size: 16px;
+    margin-top: 12px;
+    font-size: 18px;
   }
   .content-block-root {
     margin: 0;
@@ -973,7 +1012,7 @@
     padding: 30px 0;
   }
   .content-block p {
-    font-size: 14px;
+    font-size: 15px;
     max-width: 100%;
   }
 
@@ -990,13 +1029,13 @@
     grid-template-columns: repeat(2, 1fr);
   }
   .div-section h1 {
-    font-size: 25px;
+    font-size: 30px;
   }
   .div-section h3 {
     font-size: 12px;
   }
   .div-section h2 {
-    font-size: 13px;
+    font-size: 15px;
   }
 }
 
@@ -1005,6 +1044,10 @@
   .left-content h1 {
     font-size: 21px;
   }
+  .left-content button {
+    font-size: 14px;
+    padding: 10px 12px;
+}
   .right-content img {
     width: 320px;
     height: 300px;
@@ -1015,12 +1058,12 @@
     padding: 40px 10px;
   }
   .top-content h2 {
-    font-size: 21px;
+    font-size: 25px;
     line-height: 1.3;
   }
   .top-content p {
-    font-size: 13px;
-  }
+    font-size: 17px;
+}
   .bottom-content {
     width: 100%;
     flex-direction: column;
@@ -1039,35 +1082,53 @@
     height: 392px;
   }
   .text-content {
-    padding: 24px 31px;
-  }
-  .text-content h2 {
-    font-size: 21px;
-  }
+    padding: 7px 8px;
+}
+.text-content h2 {
+  font-size: 23px;
+}
   .text-content p {
     font-size: 13px;
     text-align: left;
   }
 
-    /* client-section */
-    .client-section {
-      width: 100%;
-    }
-    .content-part h2 {
-      line-height: 1.3;
-      font-size: 24px;
-    }
-    .items-group {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-    }
-    .div-section h1 {
-      font-size: 25px;
-    }
-    .div-section h3 {
-      font-size: 12px;
-    }
-    .div-section h2 {
-      font-size: 13px;
-    }
+  /* client-section */
+  .client-section {
+    width: 100%;
+  }
+  .content-part h2 {
+    line-height: 1.3;
+    font-size: 24px;
+  }
+  .items-group {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .div-section h1 {
+    font-size: 25px;
+  }
+  .div-section h3 {
+    font-size: 12px;
+  }
+  .div-section h2 {
+    font-size: 13px;
+  }
+
+  /* service-secdtion */
+  .heading-section h1{
+    font-size: 25px;
+  }
+  .service-box{
+    padding: 0;
+  }
+
+  .heading-block h1{
+    font-size: 25px
+  }
+
+  .content-block{
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+  }
 }
