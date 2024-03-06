@@ -34,7 +34,7 @@
 .left-content span {
   color: #0089f6;
 }
-.left-content h5 {
+.left-content h2 {
   font-family: "Poppins", sans-serif;
   font-size: 24px;
   color: white;
@@ -168,7 +168,7 @@
   padding: 16px;
   font-size: 20px;
 }
-.box h5 {
+.box h3 {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   max-width: 75%;
@@ -214,7 +214,7 @@
 .content-block {
   display: flex;
 }
-.text-part h6 {
+.text-part h3 {
   font-family: "Poppins", sans-serif;
   font-size: 24px;
 }
@@ -267,7 +267,7 @@
   align-items: center;
   padding: 30px 0;
 }
-.div-section h5 {
+.div-section h3 {
   font-family: "Poppins", sans-serif;
   color: #007ee3;
   font-size: 53px;
@@ -299,7 +299,7 @@
   .left-content h1 {
     font-size: 41px;
   }
-  .left-content h5 {
+  .left-content h2 {
     max-width: 98%;
   }
   .left-content p {
@@ -420,7 +420,7 @@
   .left-content span {
     color: #0089f6;
   }
-  .left-content h5 {
+  .left-content h2 {
     font-family: "Poppins", sans-serif;
     font-size: 24px;
     color: white;
@@ -502,7 +502,7 @@
     font-size: 21px;
     line-height: 1.3;
   }
-  .box h5 {
+  .box h3 {
     font-size: 28px;
   }
 
@@ -530,7 +530,7 @@
     font-size: 49px;
     max-width: 100%;
   }
-  .left-content h5 {
+  .left-content h2 {
     font-size: 20px;
     max-width: 69%;
   }
@@ -599,7 +599,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
-  .box h5 {
+  .box h3 {
     font-size: 22px;
     max-width: 62%;
   }
@@ -646,7 +646,7 @@
     line-height: 1.3;
     font-size: 35px;
   }
-  .div-section h5 {
+  .div-section h3 {
     font-size: 35px;
   }
   .div-section p {
@@ -669,7 +669,7 @@
     font-size: 40px;
     max-width: 88%;
   }
-  .left-content h5 {
+  .left-content h2 {
     font-size: 20px;
     max-width: 73%;
   }
@@ -735,7 +735,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
-  .box h5 {
+  .box h3 {
     font-size: 20px;
   }
   .box p {
@@ -779,7 +779,7 @@
     line-height: 1.3;
     font-size: 35px;
   }
-  .div-section h5 {
+  .div-section h3 {
     font-size: 29px;
   }
   .div-section p {
@@ -802,7 +802,7 @@
     font-size: 37px;
     max-width: 100%;
   }
-  .left-content h5 {
+  .left-content h2 {
     font-size: 20px;
     max-width: 83%;
   }
@@ -878,7 +878,7 @@
     align-items: center;
     padding: 20px 15px;
   }
-  .box h5 {
+  .box h3 {
     font-size: 22px;
     max-width: 54%;
   }
@@ -913,7 +913,7 @@
     font-size: 16px;
     max-width: 100%;
   }
-  .text-part h6 {
+  .text-part h3 {
     font-size: 20px;
   }
 
@@ -925,7 +925,7 @@
     line-height: 1.3;
     font-size: 35px;
   }
-  .div-section h5 {
+  .div-section h3 {
     font-size: 25px;
   }
   .div-section span {
@@ -951,7 +951,7 @@
     font-size: 30px;
     max-width: 100%;
   }
-  .left-content h5 {
+  .left-content h2 {
     font-size: 18px;
     font-weight: 600;
     max-width: 93%;
@@ -1038,7 +1038,7 @@
     padding: 19px;
     font-size: 18px;
   }
-  .box h5 {
+  .box h3 {
     font-size: 24px;
   }
   .box p {
@@ -1086,7 +1086,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
-  .div-section h5 {
+  .div-section h3 {
     font-size: 30px;
   }
   .div-section span {
@@ -1097,7 +1097,7 @@
   }
 
   /* .service-block */
-  .text-part h6 {
+  .text-part h3 {
     font-size: 20px;
   }
 }
@@ -1168,7 +1168,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
-  .div-section h5 {
+  .div-section h3 {
     font-size: 25px;
   }
   .div-section span {
