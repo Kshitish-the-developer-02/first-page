@@ -943,6 +943,10 @@
     flex-direction: column;
     gap: 0;
   }
+  .heading-block h2 {
+    font-size: 29px;
+    max-width: 100%;
+  }
   .left-content {
     max-width: 100%;
     padding: 50px 12px 0 18px;
